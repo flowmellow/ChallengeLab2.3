@@ -53,6 +53,10 @@ namespace ChallengeLab2._3
                 return;
             }
 
+            if (password == password2 && userID == userID2) 
+            {
+                Console.WriteLine("Access granted, great job typing.");
+            }
         }
 
     }
